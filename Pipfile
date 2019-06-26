@@ -1,0 +1,25 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+flask_cors = "*"
+marshmallow = "*"
+nltk = "*"
+numpy = "*"
+stop_words = "*"
+SciPy = '>0.13.3'
+scikit-learn = "*"
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
