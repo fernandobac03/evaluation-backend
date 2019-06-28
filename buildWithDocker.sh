@@ -1,12 +1,6 @@
 #!/bin/bash
 
 
-#stop and remove container
-#docker stop comparingtext
-#docker rm comparingtext
-
-#remove image
-#docker rmi comparingtext
-
-#build new image 
+docker rm -f evaluationlinks
+docker rmi evaluationlinks
 docker build -t evaluationlinks .

@@ -33,7 +33,7 @@ def datos_insertar(escuela,edad,genero):
     try:
         connection = psycopg2.connect(user="ucuenca",
                                   password="ucuenca2017",
-                                  host="172.17.0.2",
+                                  host="172.17.0.4",
                                   port="5432",
                                   database="geolinkeddata")
         cursor = connection.cursor()
@@ -61,7 +61,7 @@ def datos_consultar(param):
     try:
         connection = psycopg2.connect(user="ucuenca",
                                   password="ucuenca2017",
-                                  host="172.17.0.2",
+                                  host="172.17.0.4",
                                   port="5432",
                                   database="geolinkeddata")
         cursor = connection.cursor()
@@ -95,7 +95,7 @@ def datos_insertar_evaluacion(evaluacion, id_persona, id_par):
     try:
         connection = psycopg2.connect(user="ucuenca",
                                   password="ucuenca2017",
-                                  host="172.17.0.2",
+                                  host="172.17.0.4",
                                   port="5432",
                                   database="geolinkeddata")
         cursor = connection.cursor()

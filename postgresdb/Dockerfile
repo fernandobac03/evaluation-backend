@@ -8,5 +8,7 @@ MAINTAINER Open Knowledge
 #ENV POSTGRES_DB ckan
 
 # Install DataStore
+RUN ls /var/lib/postgresql
+RUN chmod +x /var/lib/postgresql
 COPY /initDatabase.sh /docker-entrypoint-initdb.d/
 

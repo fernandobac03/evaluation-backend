@@ -53,6 +53,7 @@ WORKDIR /usr/src/app
 #COPY Pipfile Pipfile.lock bootstrap.sh ./
 COPY Pipfile Pipfile.lock bootstrap.sh ./
 
+
 RUN chmod +x bootstrap.sh
 COPY evaluationSameAs ./evaluationSameAs
 
